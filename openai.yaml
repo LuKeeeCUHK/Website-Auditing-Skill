@@ -1,0 +1,14 @@
+interface:
+  # 用户在 ChatGPT 侧看到的名称，建议用中文描述 Skill 功能
+  display_name: "官网页面 UX 与转化分析助手"
+  # 简要描述 Skill 功能，出现在 Skill 列表中
+  short_description: "分析网站页面布局、视觉、CTA 与转化路径，输出优势与问题并提供 AB 测试建议。"
+  # 可自定义界面主色调，使用十六进制颜色值；默认为品牌色
+  brand_color: "#3B82F6"
+  # 默认提示语，可在模型调用 Skill 时添加背景说明；可选
+  default_prompt: |
+    当调用本 Skill 时，请遵循 SKILL.md 中的执行流程，扫描用户提供的页面并从布局、视觉、CTA、文案、转化路径和响应式体验等维度进行分析，输出结构化报告、列出优势项与待优化问题，并给出单变量 AB 测试方案。
+
+policy:
+  # 是否允许隐式调用此 Skill。true 表示根据用户意图自动触发；false 则需要明确调用。
+  allow_implicit_invocation: true
