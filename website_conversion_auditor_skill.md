@@ -374,7 +374,7 @@ AB 测试必须遵守：
 已预留一下知识库文件：
 
 ```text
-references/
+knowledge/
 ├── website-knowledge-wk.md          # 网站、品牌、产品背景知识
 ```
 
@@ -382,7 +382,7 @@ references/
 建议 Skill 预留以下知识库文件：
 
 ```text
-references/
+knowledge/
 ├── page-type-framework.md        # 首页、产品页、活动页、落地页分析标准
 ├── cta-taxonomy.md               # CTA 按钮分类和判断标准
 ├── ux-conversion-principles.md   # UX 与转化率优化原则
